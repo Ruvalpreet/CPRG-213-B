@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>Contact page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://pixabay.com/photos/cheese-pizza-olives-mushrooms-1869708/" target="_blank"><img src="images\Pizza.jpg" alt="Site logo"></a>
+            <h1>Pizza King</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home Page</a>
+            <a href="contact.html" id="contact">Contact us</a>
+        </nav>
+    </header>
+    <main class="main"> 
+        <form>
+            <div class="name">
+                <label for="your_name">Your Name
+                    <input type="text" id="your_name" required placeholder="Harry Quastle">
+                </label>
+            </div>
+            <div class="email">
+                <label for="your_email">Your Email<input type="email" required id="your_email" placeholder="youremail@email.com"></label>
+            </div>
+            <div class="message">
+                <label for="your_message">Your Message
+                    <textarea id="your_message" placeholder="Your Message"></textarea>
+                </label>
+            </div>
+            <div class="button">
+                <button id="submit" type="submit" onclick="alert('We Got Your Informaton!')">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <address>Created by Ruvalpreet</address>
+        <address>Follow us on <a href="https://pixabay.com/photos/cheese-pizza-olives-mushrooms-1869708/" target="_blank"> Click Here</a> </address>
+    </footer>
+    
+</body>
+</html>
